@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                         aluno.get("Email").toString()+"\n"+
                         aluno.get("Senha").toString();
                 txtDados.setText(dados);
-                Toast.makeText(this, "Aluno logado com sucesso!", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Aluno autenticado!", Toast.LENGTH_LONG).show();
             } catch (JSONException e) {
                 e.printStackTrace();
             }

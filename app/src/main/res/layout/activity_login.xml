@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="EMAIL"/>
+            android:text="E-MAIL"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -32,6 +32,7 @@
             android:text="SENHA"/>
 
         <EditText
+            android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@={vModel.senha}" />
